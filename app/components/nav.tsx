@@ -13,6 +13,9 @@ const navItems = {
   // '/project': {
   //   name: 'Projects',
   // },
+  '/resume.pdf' : {
+    name: 'Resume'
+  }
 }
 
 export function Navbar() {

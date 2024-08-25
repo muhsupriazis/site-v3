@@ -20,6 +20,7 @@ import {
 import {
   BookMarked,
   Code,
+  FileCode2,
   Github,
   Menu,
   PencilLine,
@@ -73,6 +74,12 @@ export function DrawerMenu() {
             <div className="flex items-center">
               <BookMarked className="h-4 w-4" />
               <span className="ml-2">Reading</span>
+            </div>
+          </DrawerClose>
+          <DrawerClose onClick={() => router.push('/resume.pdf')} className={'text-left font-light '}>
+            <div className="flex items-center">
+              <FileCode2 className="h-4 w-4" />
+              <span className="ml-2">Resume</span>
             </div>
           </DrawerClose>
           {/* <DrawerClose onClick={() => router.push('/project')} className={'text-left font-light '}>

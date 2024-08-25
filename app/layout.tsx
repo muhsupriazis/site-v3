@@ -12,6 +12,7 @@ import { ThemeProvider } from './components/theme-provider'
 import { DrawerMenu } from './components/drawer-menu'
 import { Xicon } from './components/icon/x'
 import { doge } from './components/doge'
+import { BackgroundBeams } from '@/components/ui/background-beams'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -91,7 +92,7 @@ export default function RootLayout({
           <Analytics />
           <SpeedInsights />
         </main>
-        {/* <BackgroundBeams /> */}
+        <BackgroundBeams />
       </ThemeProvider>
       </body>
     </html>
