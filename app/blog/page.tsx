@@ -11,7 +11,7 @@ export default function Page() {
       <div>
         <h1 className="font-bold md:text-4xl text-3xl md:mb-6 mb-4 tracking-tighter">Blogs</h1>
         <p className="mb-6 font-light md:text-base text-[15px] leading-relaxed dark:text-[#a3a3a3] text-[#52525b]">
-        Things I've learned before, mostly in Indonesian.
+        Things I&apos;ve learned before, mostly in Indonesian.
         </p>
       </div>
         <BlogPosts />
